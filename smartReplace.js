@@ -1,4 +1,4 @@
-﻿const axios = require("axios");
+const axios = require("axios");
 const fs = require("fs");
 const replacements = [];
 var remoteContent;
@@ -217,7 +217,7 @@ async function downloader_jd() {
             "京喜农场分享码"
         );
         await download(
-            "https://github.com/an0na/jd_scripts/raw/master/USER_AGENTS.js",
+            "https://github.com/an0na/jd_scripts_new/raw/master/USER_AGENTS.js",
             "./USER_AGENTS.js",
             "USER_AGENTS"
         );
@@ -225,11 +225,11 @@ async function downloader_jd() {
 }
 
 async function downloader_notify() {
-    await download("https://github.com/an0na/jd_scripts/raw/master/sendNotify.js", "./sendNotify.js", "统一通知");
+    await download("https://github.com/an0na/jd_scripts_new/raw/master/sendNotify.js", "./sendNotify.js", "统一通知");
 }
 
 async function downloader_user_agents() {
-    await download("https://github.com/an0na/jd_scripts/raw/master/USER_AGENTS.js", "./USER_AGENTS.js", "云端UA");
+    await download("https://github.com/an0na/jd_scripts_new/raw/master/USER_AGENTS.js", "./USER_AGENTS.js", "云端UA");
 }
 
 async function download(url, path, target) {
