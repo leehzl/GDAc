@@ -30,4 +30,5 @@
 (时效性较快)an0na-Secrets配置[点击查看](https://github.com/an0na/jd_scripts/blob/master/githubAction.md)
 
 
+
 > 具体如何取 cookie 如何配置,可参考 [an0na 的获取京东Cookies教程](https://github.com/an0na/jd_scripts/blob/master/githubAction.md#%E4%BA%AC%E4%B8%9Ccookie)
